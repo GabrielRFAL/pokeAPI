@@ -1,0 +1,15 @@
+<div class="structure">
+    <div class="d-flex justify-content-center">
+      <img class="logo" src="../../assets/logo.png" alt="">
+    </div>
+    <div class="container">
+      <ul data-js="pokedex" class="pokedex" *ngFor="let pokemon of listaPokemons; i of index">
+          <li class="card d-flex flex-column justify-content-evenly">
+              <div id="hide3" class="tipo3">
+                  <img  class="card-image" [src]="getPokemonImageUrl(pokemon.id)" alt="{{ pokemon.name }}">
+              </div>
+              <h3 class="card-title">{{pokemon.name}}</h3>
+          </li>
+      </ul>
+    </div>
+</div>
