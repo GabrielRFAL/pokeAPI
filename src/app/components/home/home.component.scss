@@ -1,0 +1,23 @@
+.structure {
+    background-color: #f8f9fa;
+    min-height: 100vh; /* Garante que ocupe toda a altura da tela */
+  }
+  
+
+.logo {
+    max-width: 15%;
+}
+
+.card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+input {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
